@@ -96,7 +96,7 @@ class CharList extends Component {
           style={{ display: charEnded ? "none" : "block" }}
           onClick={() => this.onRequest(offset)}
         >
-          <div className="inner">load more</div>
+          <div className="inner">load more...</div>
         </button>
       </div>
     );
